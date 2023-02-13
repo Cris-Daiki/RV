@@ -394,6 +394,7 @@
 "Assets/Scripts/CambiarModelo.cs"
 "Assets/Scripts/CambiarModeloUnico.cs"
 "Assets/Scripts/ChangeColor.cs"
+"Assets/Scripts/ConeccionFlecha.cs"
 "Assets/Scripts/Despliegue.cs"
 "Assets/Scripts/Giroscopio.cs"
 "Assets/Scripts/GiroscopioMenu.cs"
