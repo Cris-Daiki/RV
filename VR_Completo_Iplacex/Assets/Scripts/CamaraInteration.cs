@@ -9,6 +9,7 @@ public class CamaraInteration : MonoBehaviour
     public float timer = 0;   
     string Comparation,Comparation2;
     int contador =1;
+    internal string NombreParteJuego;
 
     void Update()
     {
@@ -38,7 +39,14 @@ public class CamaraInteration : MonoBehaviour
 
 
             if(timer >=3f){
+                /*if(hit.collider.name == "Pie Derecho" || hit.collider.name == "Pie Izquierdo" ||hit.collider.name == "Mano Derecha" ||hit.collider.name == "Mano Izquierda" ||
+                hit.collider.name == "Cabeza" ||hit.collider.name == "Brazo Derecho" ||hit.collider.name == "Brazo Izquierda" ||hit.collider.name == "Pecho" ||
+                hit.collider.name == "Parte Baja" ||hit.collider.name == "Pierna Derecha" ||hit.collider.name == "Pierna Izquierda" ){
+                    NombreParteJuego = hit.transform.root.name;
+                    print(NombreParteJuego);
+                }*/
                 hit.transform.GetComponent<Interactable>().Interact();
+                
                 timer = 0;
                 
             }else{

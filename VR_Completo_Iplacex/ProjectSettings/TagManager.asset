@@ -8,6 +8,11 @@ TagManager:
   - DesplegarObjetos
   - Analis
   - CambiarModelo
+  - RotarModelo
+  - Texto
+  - Reto
+  - RetoJugador
+  - ObtenerElemento
   layers:
   - Default
   - TransparentFX
