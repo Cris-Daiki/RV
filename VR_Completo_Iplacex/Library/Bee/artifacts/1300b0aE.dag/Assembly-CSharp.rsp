@@ -385,6 +385,7 @@
 "Assets/Interactable/ActivarRotarIzquieda.cs"
 "Assets/Interactable/AnalizarModelo.cs"
 "Assets/Interactable/Cambio.cs"
+"Assets/Interactable/ElegirOtroReto.cs"
 "Assets/Interactable/Evaluar.cs"
 "Assets/Interactable/ExitInteration.cs"
 "Assets/Interactable/Interactable.cs"

@@ -5,7 +5,6 @@ using UnityEngine;
 public class ActivarReto : Interactable
 {
     Reto activate;
-
     public override void Interact(){
         base.Interact();
 
