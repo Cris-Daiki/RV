@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Despliegue.cs" />
+    <Compile Include="Assets\Scripts\ShowTexto.cs" />
     <Compile Include="Assets\Scripts\PlayInspeccionarcuerpo.cs" />
     <Compile Include="Assets\Scripts\ChangeColo.cs" />
     <Compile Include="Assets\Scripts\ConeccionFlecha.cs" />
@@ -67,12 +68,16 @@
     <Compile Include="Assets\Scripts\ApagarTXT.cs" />
     <Compile Include="Assets\Scripts\FPCamera.cs" />
     <Compile Include="Assets\Interactable\PlayInteractuable.cs" />
+    <Compile Include="Assets\Scripts\EligiendoElementos.cs" />
     <Compile Include="Assets\XRPlatformControllerSetup.cs" />
     <Compile Include="Assets\Interactable\ExitInteration.cs" />
     <Compile Include="Assets\Interactable\Interactable.cs" />
     <Compile Include="Assets\Interactable\OnOf.cs" />
     <Compile Include="Assets\Interactable\PlayCambioCuerpo.cs" />
+    <Compile Include="Assets\Scripts\RotacionModeloDerecha.cs" />
+    <Compile Include="Assets\Scripts\Reto.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\RotacionModelo.cs" />
     <Compile Include="Assets\ApagarText.cs" />
     <Compile Include="Assets\Scripts\Outliner.cs" />
     <Compile Include="Assets\Interactable\AnalizarModelo.cs" />
@@ -80,16 +85,23 @@
     <Compile Include="Assets\Scripts\CambiarModeloUnico.cs" />
     <Compile Include="Assets\Scripts\Progreso.cs" />
     <Compile Include="Assets\Scripts\InputController.cs" />
+    <Compile Include="Assets\Interactable\MostrarProblema.cs" />
     <Compile Include="Assets\Scripts\CamaraColicion.cs" />
     <Compile Include="Assets\Scripts\Zoom.cs" />
     <Compile Include="Assets\Scripts\SeguimientoCamara.cs" />
     <Compile Include="Assets\Interactable\ActivarDespliegue.cs" />
     <Compile Include="Assets\Scripts\CamaraInteration.cs" />
     <Compile Include="Assets\Scripts\Rotation.cs" />
+    <Compile Include="Assets\Interactable\Evaluar.cs" />
     <Compile Include="Assets\Scripts\ONOFFunciones.cs" />
     <Compile Include="Assets\Scripts\CambioModelo.cs" />
     <Compile Include="Assets\Scripts\Billboard.cs" />
+    <Compile Include="Assets\Interactable\ActivarRotarDerecha.cs" />
+    <Compile Include="Assets\Interactable\ActivarRotarIzquieda.cs" />
+    <Compile Include="Assets\Interactable\ActivarReto.cs" />
+    <Compile Include="Assets\Scripts\Evaluando.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Interactable\ObjetoElegido.cs" />
     <Compile Include="Assets\Scripts\CameraInteration.cs" />
     <Compile Include="Assets\Interactable\Cambio.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
