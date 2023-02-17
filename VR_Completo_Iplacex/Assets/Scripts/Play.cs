@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class PLay : MonoBehaviour
+public class Play : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,7 @@ public class PLay : MonoBehaviour
         
     }
     public void Inicio(){
-        SceneManager.LoadScene("EscenaBotiquin");
+        SceneManager.LoadScene("Habitacion");
     }
     public void Exit(){
         Application.Quit();

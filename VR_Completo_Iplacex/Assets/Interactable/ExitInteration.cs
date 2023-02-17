@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ExitInteration : Interactable
 {
-    PLay activate;
+    Play activate;
 
     
     private AnalizarModelo Variable;
@@ -13,9 +13,8 @@ public class ExitInteration : Interactable
          
         base.Interact();
 
-        activate = GameObject.FindGameObjectWithTag("Controlador").GetComponent<PLay>();
+        activate = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Play>();
         activate.Exit();
         
     }
-
 }

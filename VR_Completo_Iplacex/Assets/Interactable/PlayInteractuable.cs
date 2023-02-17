@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayInteractuable : Interactable
 {
-
-    PLay activate;
+    Play activate;
 
     
     private AnalizarModelo Variable;
@@ -14,7 +13,7 @@ public class PlayInteractuable : Interactable
          
         base.Interact();
 
-        activate = GameObject.FindGameObjectWithTag("Controlador").GetComponent<PLay>();
+        activate = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Play>();
         activate.Inicio();
         
     }

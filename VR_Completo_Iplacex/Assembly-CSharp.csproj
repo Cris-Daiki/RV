@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\Despliegue.cs" />
     <Compile Include="Assets\Scripts\ShowTexto.cs" />
     <Compile Include="Assets\Scripts\PlayInspeccionarcuerpo.cs" />
+    <Compile Include="Assets\Scripts\WinActivacion.cs" />
     <Compile Include="Assets\Scripts\ChangeColo.cs" />
     <Compile Include="Assets\Scripts\ConeccionFlecha.cs" />
     <Compile Include="Assets\Scripts\CambiarModelo.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Scripts\Reto.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Scripts\RotacionModelo.cs" />
+    <Compile Include="Assets\Interactable\ElegirOtroReto.cs" />
     <Compile Include="Assets\ApagarText.cs" />
     <Compile Include="Assets\Scripts\Outliner.cs" />
     <Compile Include="Assets\Interactable\AnalizarModelo.cs" />
@@ -91,6 +93,7 @@
     <Compile Include="Assets\Scripts\SeguimientoCamara.cs" />
     <Compile Include="Assets\Interactable\ActivarDespliegue.cs" />
     <Compile Include="Assets\Scripts\CamaraInteration.cs" />
+    <Compile Include="Assets\Scripts\RetoCompletado.cs" />
     <Compile Include="Assets\Scripts\Rotation.cs" />
     <Compile Include="Assets\Interactable\Evaluar.cs" />
     <Compile Include="Assets\Scripts\ONOFFunciones.cs" />

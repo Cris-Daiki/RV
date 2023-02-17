@@ -1,13 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//Untagged
-
-
 
 public class CambiarModeloUnico : MonoBehaviour
 {
-
 
     public List<GameObject> myList;
 
@@ -31,7 +27,7 @@ public class CambiarModeloUnico : MonoBehaviour
     
     internal string NombreEncontrado; //esta variable nos permite guardar la variable nombre que es el nombre del objeto que se esa interacciontuando asi mismo nos permite dar el objeto completo a la variable ObjetoReferenciado
     
-    protected CambioModelo ContadorDelModelo; //nos permite saber si al momento de volver el objeto a su posicion original es necesario desactivar la rotacion del objeto y tambien nos permite saber si el boton de ON/OFF se le debe permitir su uso o no 
+    protected CambiarModelo ContadorDelModelo; //nos permite saber si al momento de volver el objeto a su posicion original es necesario desactivar la rotacion del objeto y tambien nos permite saber si el boton de ON/OFF se le debe permitir su uso o no 
 
     //ActivarDespliegue NombreContenedor,Funcion;
 
@@ -141,7 +137,7 @@ public class CambiarModeloUnico : MonoBehaviour
     public void UpdateRotation(string Nombre) //nos permite activar o desactivar el componente de rotacion que tienen asignado los objetos que se inspeccionan
     {
         rotacion = GameObject.Find(Nombre).GetComponent<Rotation>();
-        ContadorDelModelo = FindObjectOfType<CambioModelo>();
+        ContadorDelModelo = FindObjectOfType<CambiarModelo>();
 
         //contadorPrestadoMU = ContadorDelModelo.contadorCambioModelo;
 

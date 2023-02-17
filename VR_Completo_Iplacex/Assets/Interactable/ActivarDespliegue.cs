@@ -24,5 +24,4 @@ public class ActivarDespliegue : Interactable
         if(NombreObjeto == "Contenedor 7"){ activate.WhenDespligue7ON(); }
 
     }
-
 }

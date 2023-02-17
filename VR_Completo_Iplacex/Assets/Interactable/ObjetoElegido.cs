@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class ObjetoElegido : Interactable{
     EligiendoElementos activate;
+    Evaluando activate2;
     public override void Interact(){
         base.Interact();
-        print("hola");
+
+        
         activate = GameObject.FindGameObjectWithTag("ObtenerElemento").GetComponent<EligiendoElementos>();
         activate.ElementosElegidos(transform.root.gameObject);
         transform.root.gameObject.SetActive(false);
+        activate2 = GameObject.FindGameObjectWithTag("RetoJugador").GetComponent<Evaluando>();
+        activate2.Jugando();
+        
         
     }
 }

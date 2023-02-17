@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CamaraColicion : MonoBehaviour
 {
-    private float minDistancia = 0;
+private float minDistancia = 0;
     private float maxDistancia = 15;
     private float suavidad = 10;
     private float distancia;
@@ -40,6 +40,4 @@ public class CamaraColicion : MonoBehaviour
         }
     }
     
-
-
 }

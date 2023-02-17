@@ -5,7 +5,7 @@ using UnityEngine;
 public class OnOf : Interactable
 {
     ActivarDespliegue ContadorActivarDespliegue;    
-    CambioModelo activate;
+    CambiarModelo activate;
     //CambiarModeloUnico Activate2,NombreObjetoReferenciado;
     //int contadorPrestado = 0;
     
@@ -15,7 +15,7 @@ public class OnOf : Interactable
          
         base.Interact();
 
-        activate = GameObject.FindGameObjectWithTag("CambiarModelo").GetComponent<CambioModelo>();
+        activate = GameObject.FindGameObjectWithTag("CambiarModelo").GetComponent<CambiarModelo>();
         activate.whenButtonGeneralClicled();
         
     }

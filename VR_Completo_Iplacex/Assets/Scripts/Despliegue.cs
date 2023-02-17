@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class Despliegue : MonoBehaviour
 {
-    
     public List<GameObject> Contenedores;
     public GameObject Botiquin;
     public List<GameObject> ListaCompleta;

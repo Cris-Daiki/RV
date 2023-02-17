@@ -1,9 +1,9 @@
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InputController : MonoBehaviour
 {
-    
     public Vector2 MoveInput()
     {
         float x = Input.GetAxis("Horizontal");
@@ -16,5 +16,4 @@ public class InputController : MonoBehaviour
         float y = Input.GetAxis("Mouse Y");
         return new Vector2(x, y);
     }
-
 }
