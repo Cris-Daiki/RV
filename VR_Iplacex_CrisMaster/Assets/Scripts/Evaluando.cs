@@ -25,6 +25,7 @@ public class Evaluando : MonoBehaviour
 
     private MostrarObjetosMostrador QuitarElementosMostrador;
     public GameObject MensajeGanaste;
+    public List<GameObject> ListaDeMensajesDeRetoComopletado;
     ShowTexto ParteDelCuerpo,activate;
     public List<GameObject> ObjetosJuego;
     int indice;
@@ -116,15 +117,24 @@ public class Evaluando : MonoBehaviour
         time+= Time.deltaTime;
         if(Completado == 1){
             
-            if(time <= 2f)
-            {
-                MensajeGanaste.SetActive(true);
+            //if(time <= 2f)
+            //{
+            for(int i =0; i< ListaDeMensajesDeRetoComopletado.Count ; i++){
+                ListaDeMensajesDeRetoComopletado[i].SetActive(false);
+            }
+            MensajeGanaste.SetActive(true);
+            for(int i =0; i< ListaDeMensajesDeRetoComopletado.Count ; i++){
+                if(ParteDelCuerpo.ParteDelCuerpoElegida  == ListaDeMensajesDeRetoComopletado[i].name)
+                {
+                    ListaDeMensajesDeRetoComopletado[i].SetActive(true);
+                }
+            }
                 
-            }else{
-                MensajeGanaste.SetActive(false);
+            //}else{
+                //MensajeGanaste.SetActive(false);
                 Completado =0;
                 progreso =0;
-            }
+            //}
         }
     }
     public void Reseteo(){

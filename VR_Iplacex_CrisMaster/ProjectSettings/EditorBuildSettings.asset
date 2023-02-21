@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: eb1687542eded0743ae4407f338075c6
   - enabled: 1
-    path: Assets/Scenes/Menu_Inspeccion_CuerpoOLD.unity
+    path: Assets/Scenes/Menu_Inspeccion_Cuerpo.unity
     guid: 5f7b4fa233a26d2488eaac7071cc7fd5
   - enabled: 1
     path: Assets/Scenes/EscenaBotiquin.unity

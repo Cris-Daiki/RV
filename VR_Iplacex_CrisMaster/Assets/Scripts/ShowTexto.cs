@@ -13,11 +13,11 @@ public class ShowTexto : MonoBehaviour
     public LineRenderer Linea;
     internal GameObject Objeto;
     int contador;
-
+    public GameObject MensajeCompletado;
 
     public void MostrarTexto(){
 
-
+        MensajeCompletado.SetActive(false);
         contador +=1;
         if(contador > 1){
             ApagarTexto();
@@ -48,7 +48,7 @@ public class ShowTexto : MonoBehaviour
         if(ParteDelCuerpo == "Pierna Izquierda"){ ParteEncontrada = OcultarObjeto.transform.GetChild(10).gameObject; ParteEncontrada.SetActive(true);Linea =Objeto.GetComponent<LineRenderer>(); Linea.enabled = true;}
     }   
     public void ApagarTexto(){
-        
+        MensajeCompletado.SetActive(false);
         ParteDelCuerpoElegida =ParteDelCuerpo;
         OcultarObjeto = GameObject.Find("Textos");
         if(ParteDelCuerpo == "Pie Derecho"){ParteEncontrada = OcultarObjeto.transform.GetChild(0).gameObject; ParteEncontrada.SetActive(false);Linea.enabled = false;}

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Menu_Inspeccion_CuerpoOLD.unity
+- path: Assets/Scenes/EscenaBotiquin.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
