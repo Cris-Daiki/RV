@@ -22,6 +22,7 @@ public class Evaluando : MonoBehaviour
     public List<GameObject> OrdenCorrectoDolorParteBaja;
     public List<GameObject> OrdenCorrectoDolorPiernaDerecha;
     public List<GameObject> OrdenCorrectoDolorPiernaIzquierda;
+    public List<GameObject> OrdenCorrectoDolorCuello;
 
     private MostrarObjetosMostrador QuitarElementosMostrador;
     public GameObject MensajeGanaste;
@@ -77,6 +78,9 @@ public class Evaluando : MonoBehaviour
                     break;
                 case "Pierna Izquierda":
                     OrdenCorrectoDolor = OrdenCorrectoDolorPiernaIzquierda;
+                    break;
+                case "Cuello":
+                    OrdenCorrectoDolor = OrdenCorrectoDolorCuello;
                     break;
             }
 
