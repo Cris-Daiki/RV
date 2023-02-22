@@ -37,14 +37,15 @@ public class Evaluando : MonoBehaviour
     float time;
     //public TMpro.TextMeshProUGUI Porcentaje;
     public void Jugando(){
-    
+
         ElementoElegido = FindObjectOfType<EligiendoElementos>();
         ParteDelCuerpo = FindObjectOfType<ShowTexto>();
-        activate= GameObject.FindGameObjectWithTag("Texto").GetComponent<ShowTexto>();
+        activate = GameObject.FindGameObjectWithTag("Texto").GetComponent<ShowTexto>();
         ProblemaCuerpo = ParteDelCuerpo.ParteDelCuerpoElegida;
 
-        if(ProblemaCuerpo != "Null"){
-            switch(ParteDelCuerpo.ParteDelCuerpoElegida)
+        if (ProblemaCuerpo != "Null")
+        {
+            switch (ParteDelCuerpo.ParteDelCuerpoElegida)
             {
                 case "Pie Derecho":
                     OrdenCorrectoDolor = OrdenCorrectoDolorPieDerecho;
@@ -85,77 +86,96 @@ public class Evaluando : MonoBehaviour
             }
 
         }
-        if(ElementoElegido.ObjetosElegidos.Count == OrdenCorrectoDolor.Count){
+        if (ElementoElegido.ObjetosElegidos.Count == OrdenCorrectoDolor.Count)
+        {
             bool isEqual = ElementoElegido.ObjetosElegidos.ToHashSet().SetEquals(OrdenCorrectoDolor);
-            if(isEqual){ //completamos
+            if (isEqual)
+            { //completamos
                 //ParteDelCuerpo.CasosQuitados.Add(ParteDelCuerpo.ParteDelCuerpoElegida);
-                Completado =1;
-                progreso = ((float)ElementoElegido.ObjetosElegidos.Count/OrdenCorrectoDolor.Count);
-                ActivarFixedUpdate+=1;
+                Completado = 1;
+                progreso = ((float)ElementoElegido.ObjetosElegidos.Count / OrdenCorrectoDolor.Count);
+                ActivarFixedUpdate += 1;
                 Reseteo();
                 activate.ApagarTexto();
-                time=0;
-                
+                time = 0;
+
                 //hacer funcion que elimine este problema y que vuelva todo a lo original 
-            }else{
-                ActivarFixedUpdate+=1;
+            }
+            else
+            {
+                ActivarFixedUpdate += 1;
                 Reseteo();
             }
-        }else{
+        }
+        else
+        {
             indice = ElementoElegido.ObjetosElegidos.Count;
-            for (int i=0; i<indice; i++){
-                if(ElementoElegido.ObjetosElegidos[i] == OrdenCorrectoDolor[i]){
-                    progreso = ((float)ElementoElegido.ObjetosElegidos.Count/OrdenCorrectoDolor.Count);
-                }else{
+            for (int i = 0; i < indice; i++)
+            {
+                if (ElementoElegido.ObjetosElegidos[i] == OrdenCorrectoDolor[i])
+                {
+                    progreso = ((float)ElementoElegido.ObjetosElegidos.Count / OrdenCorrectoDolor.Count);
+                }
+                else
+                {
                     Reseteo();
                     break;
                 }
             }
-            ActivarFixedUpdate+=1;
+            ActivarFixedUpdate += 1;
         }
     }
-    private void FixedUpdate(){
-        if(ActivarFixedUpdate != 0){
-            BarraCarga.fillAmount= Mathf.Lerp(BarraCarga.fillAmount, progreso, .05f);
+    private void FixedUpdate()
+    {
+        if (ActivarFixedUpdate != 0)
+        {
+            BarraCarga.fillAmount = Mathf.Lerp(BarraCarga.fillAmount, progreso, .05f);
         }
-        time+= Time.deltaTime;
-        if(Completado == 1){
-            
+        time += Time.deltaTime;
+        if (Completado == 1)
+        {
+
             //if(time <= 2f)
             //{
-            for(int i =0; i< ListaDeMensajesDeRetoComopletado.Count ; i++){
+            for (int i = 0; i < ListaDeMensajesDeRetoComopletado.Count; i++)
+            {
                 ListaDeMensajesDeRetoComopletado[i].SetActive(false);
             }
             MensajeGanaste.SetActive(true);
-            for(int i =0; i< ListaDeMensajesDeRetoComopletado.Count ; i++){
-                if(ParteDelCuerpo.ParteDelCuerpoElegida  == ListaDeMensajesDeRetoComopletado[i].name)
+            for (int i = 0; i < ListaDeMensajesDeRetoComopletado.Count; i++)
+            {
+                if (ParteDelCuerpo.ParteDelCuerpoElegida == ListaDeMensajesDeRetoComopletado[i].name)
                 {
                     ListaDeMensajesDeRetoComopletado[i].SetActive(true);
                 }
             }
-                
+
             //}else{
-                //MensajeGanaste.SetActive(false);
-                Completado =0;
-                progreso =0;
+            //MensajeGanaste.SetActive(false);
+            Completado = 0;
+            progreso = 0;
             //}
         }
     }
-    public void Reseteo(){
-        progreso =0f;
-        
-        QuitarElementosMostrador =GameObject.FindGameObjectWithTag("MostradorObjetos").GetComponent<MostrarObjetosMostrador>();
-        for(int x = 0; x<ObjetosJuego.Count; x++){
+    public void Reseteo()
+    {
+        progreso = 0f;
+
+        QuitarElementosMostrador = GameObject.FindGameObjectWithTag("MostradorObjetos").GetComponent<MostrarObjetosMostrador>();
+        for (int x = 0; x < ObjetosJuego.Count; x++)
+        {
             ObjetosJuego[x].SetActive(true);
         }
         QuitarElementosMostrador.DesactivarObjetosMostrador();
         ElementoElegido = FindObjectOfType<EligiendoElementos>();
         ElementoElegido.ObjetosElegidos.Clear();
     }
-    public void CompletoReto(){
-        for(int x = 0; x<ObjetosJuego.Count; x++){
+    public void CompletoReto()
+    {
+        for (int x = 0; x < ObjetosJuego.Count; x++)
+        {
             ObjetosJuego[x].SetActive(false);
-        }   
+        }
     }
 
     /*void Update(){

@@ -1,0 +1,881 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.4f1 (8216e0211249) revision 8525536'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'es' Physical Memory: 24512 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Ouk/Desktop/finishproyect/RV-CrisMaster/VR_Iplacex_CrisMaster
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50407
+Successfully changed project path to: C:/Users/Ouk/Desktop/finishproyect/RV-CrisMaster/VR_Iplacex_CrisMaster
+C:/Users/Ouk/Desktop/finishproyect/RV-CrisMaster/VR_Iplacex_CrisMaster
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18084] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1503240941 [EditorId] 1503240941 [Version] 1048832 [Id] WindowsEditor(7,OukZeroPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18084] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1503240941 [EditorId] 1503240941 [Version] 1048832 [Id] WindowsEditor(7,OukZeroPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 20.98 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Initialize engine version: 2022.2.4f1 (8216e0211249)
+[Subsystems] Discovering subsystems at path D:/unity/2022.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ouk/Desktop/finishproyect/RV-CrisMaster/VR_Iplacex_CrisMaster/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'D:/unity/2022.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.2.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002932 seconds.
+- Loaded All Assemblies, in  0.301 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 220 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling:
+	ReloadAssembly (161ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+				TypeCache.Initialize (137ms)
+					TypeCache.ScanAssembly (135ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (314ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ouk\Desktop\finishproyect\RV-CrisMaster\VR_Iplacex_CrisMaster\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ouk\Desktop\finishproyect\RV-CrisMaster\VR_Iplacex_CrisMaster\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.793 seconds
+Refreshing native plugins compatible for Editor in 9.79 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <0da48681ced7494d83ae6a612d2206fc>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <c119aa0913a0473185a8287e39c3f563>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (189ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (603ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (432ms)
+				TypeCache.Initialize (305ms)
+					TypeCache.ScanAssembly (301ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 10.00 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (381.2 KB). Loaded Objects now: 4462.
+Memory consumption went from 0.61 GB to 0.61 GB.
+Total: 3.416700 ms (FindLiveObjects: 0.361000 ms CreateObjectMapping: 0.393900 ms MarkObjects: 2.539000 ms  DeleteObjects: 0.121700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 498545.635044 seconds.
+  path: Assets/Waiting room/Models/Materials/Asphalt2.mat
+  artifactKey: Guid(ea1c5663793c1e24086e73e207458c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/Asphalt2.mat using Guid(ea1c5663793c1e24086e73e207458c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93268e12b19d1d47e84c614bf855f38') in 0.175523 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Waiting room/Models/Materials/vending machine glass.mat
+  artifactKey: Guid(6f9a6a306ed836e4384d0f553b65eb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/vending machine glass.mat using Guid(6f9a6a306ed836e4384d0f553b65eb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf3302956b22df6104521c17ea189e5') in 0.041547 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Waiting room/Models/Materials/windows glass.mat
+  artifactKey: Guid(fa92c52db5928a649bd9429d2f272f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/windows glass.mat using Guid(fa92c52db5928a649bd9429d2f272f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a365f8f0e7e046ce7d48ef4c17ad974') in 0.032301 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Waiting room/Models/Materials/metallic1.mat
+  artifactKey: Guid(f4c3f69635d5d074caac840b9a8fc156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/metallic1.mat using Guid(f4c3f69635d5d074caac840b9a8fc156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4577515e66609a681bd9979b9d9b3c51') in 0.030814 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Waiting room/Models/Materials/notice board.mat
+  artifactKey: Guid(2e582dec85ef9f14cae7aba4dbe931c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/notice board.mat using Guid(2e582dec85ef9f14cae7aba4dbe931c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8797db3e4c5bd4b2c3c75fc46ec7a61') in 0.063858 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Waiting room/Models/Materials/tv.mat
+  artifactKey: Guid(ea48dcc9e97c7624e8a259f5ebef18fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/tv.mat using Guid(ea48dcc9e97c7624e8a259f5ebef18fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45c2ae8b957c9160f56e9d00aee268d') in 0.032155 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Waiting room/Models/Materials/wall painted.mat
+  artifactKey: Guid(15a90778b1c90624cb3850e6c87e981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/wall painted.mat using Guid(15a90778b1c90624cb3850e6c87e981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb079b79ef7be40024d552c3b04a8a0') in 0.050472 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Waiting room/Models/Materials/Fire hose.mat
+  artifactKey: Guid(1c19bce0c35088541b030ba3d9cfb4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/Fire hose.mat using Guid(1c19bce0c35088541b030ba3d9cfb4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65877aa1fb6cf086fdd55016f0df3000') in 0.056023 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Waiting room/Models/Materials/door material 2.mat
+  artifactKey: Guid(17ccfb6e0ef28cc4087e2966143d7e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/door material 2.mat using Guid(17ccfb6e0ef28cc4087e2966143d7e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a9256bc22412bd98672e70faad555b') in 0.013943 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waiting room/Models/Materials/grating.mat
+  artifactKey: Guid(31b7f8e34bbc71041b158499976309a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/grating.mat using Guid(31b7f8e34bbc71041b158499976309a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fed6847b0ba3f77c97e62771af9ede') in 0.054079 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Waiting room/Models/Materials/pictures1.mat
+  artifactKey: Guid(32196401a99b1214ba0d36e8e6b92bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Materials/pictures1.mat using Guid(32196401a99b1214ba0d36e8e6b92bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5168b28bac7dd8a219695f06ff3bce9a') in 0.031657 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.090509 seconds.
+  path: Assets/Waiting room/Models/Bin.FBX
+  artifactKey: Guid(83bc087103421cd499d84be61427074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Bin.FBX using Guid(83bc087103421cd499d84be61427074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35850f8fabaf98b45bb90c099ac65c8') in 0.045455 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Waiting room/Models/Exit picture.FBX
+  artifactKey: Guid(41ac81005a814d346bf337802736c373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Exit picture.FBX using Guid(41ac81005a814d346bf337802736c373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd126e33dae209181f59d8ee1d8f7f0d0') in 0.022745 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waiting room/Models/Nameplate 2.FBX
+  artifactKey: Guid(9d8fcd30db845854485c0414bbd88a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Nameplate 2.FBX using Guid(9d8fcd30db845854485c0414bbd88a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21978eba2071e95a5850c3406b388d50') in 0.027074 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Waiting room/Models/Picture 2.FBX
+  artifactKey: Guid(602cea76030e18a4ab15beb780873a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Picture 2.FBX using Guid(602cea76030e18a4ab15beb780873a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e543a8f9a5e41361ce7d937f4d17d6') in 0.023703 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Waiting room/Models/Wall 5.FBX
+  artifactKey: Guid(d70aa6af51328db46a2c4ec324def69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Wall 5.FBX using Guid(d70aa6af51328db46a2c4ec324def69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b627ac6ea68bb635fbf17d8b8fd968e') in 0.043823 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waiting room/Models/Fresh cola.FBX
+  artifactKey: Guid(b0b147baaf8a1eb46bb1b0a948d8c46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Fresh cola.FBX using Guid(b0b147baaf8a1eb46bb1b0a948d8c46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c20bd3886ae1a7e7788b4041f7c8578') in 0.028696 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waiting room/Models/Door.FBX
+  artifactKey: Guid(6609fc3f5b98cc94fb0e2e99028408a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Door.FBX using Guid(6609fc3f5b98cc94fb0e2e99028408a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa85e3ea26ee97d70f2c295c07cdc58') in 0.043688 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Waiting room/Models/Paper.FBX
+  artifactKey: Guid(c3bc816bd312c4e4ea394d1fffd489f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Paper.FBX using Guid(c3bc816bd312c4e4ea394d1fffd489f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76bb596ab21993f61cbcdea6ec1dacf') in 0.014973 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waiting room/Models/Wall 2.FBX
+  artifactKey: Guid(939807ce458dfae4681db375e51ef751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Wall 2.FBX using Guid(939807ce458dfae4681db375e51ef751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9af447a89d16e409a7a771247599e7') in 0.028207 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Waiting room/Models/Vending machine 2.FBX
+  artifactKey: Guid(e408b4d39c2ba0d428cbd51feb388a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Vending machine 2.FBX using Guid(e408b4d39c2ba0d428cbd51feb388a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8e30727f802fe2dd832240f502b282') in 0.042673 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Waiting room/Models/Exterior.FBX
+  artifactKey: Guid(4cd9a720783195d43a624d2f8e0df859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Exterior.FBX using Guid(4cd9a720783195d43a624d2f8e0df859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c260704d9e13172f42b117594bd009fc') in 0.076758 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Waiting room/Models/Fire exit.FBX
+  artifactKey: Guid(2889bc62b23d49d459d4d7e4b79080ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Fire exit.FBX using Guid(2889bc62b23d49d459d4d7e4b79080ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa77dfc0c217a05a1aa434f3b1b20f5') in 0.066938 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Waiting room/Models/Nameplate 1.FBX
+  artifactKey: Guid(fad224c65c8a2214f9a7b637e9cc0649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Nameplate 1.FBX using Guid(fad224c65c8a2214f9a7b637e9cc0649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60cedc63490da20ffc7b2b5bd798a79') in 0.036191 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Waiting room/Models/Fire Hose.FBX
+  artifactKey: Guid(febc6f29ed34dc84aaf6aa516b422b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Fire Hose.FBX using Guid(febc6f29ed34dc84aaf6aa516b422b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7068d75a644f5c2477566c48ff68c1b1') in 0.046563 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Waiting room/Models/Clock.FBX
+  artifactKey: Guid(e4ea3b59a38b55940a9b795175dee288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Clock.FBX using Guid(e4ea3b59a38b55940a9b795175dee288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d133e1f5969924b0675cf5df7121fc') in 0.030710 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Waiting room/Models/Crutch.FBX
+  artifactKey: Guid(312e5d54215fe0b46903f984ac761c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Crutch.FBX using Guid(312e5d54215fe0b46903f984ac761c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d9ebe8b4b1991b683dec94466b7fe6') in 0.019090 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Waiting room/Models/Nameplate 3.FBX
+  artifactKey: Guid(88a8ed3780a77d0419b1216dc3b4afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Nameplate 3.FBX using Guid(88a8ed3780a77d0419b1216dc3b4afe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8aba3bd301dd6ec0bd663b8db547a8') in 0.032456 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Waiting room/Models/Lamp.FBX
+  artifactKey: Guid(6908c36e531f6b044820d1c40e129ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/Models/Lamp.FBX using Guid(6908c36e531f6b044820d1c40e129ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2039db3a254a95bebea76228b916b39') in 0.020757 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 263.980536 seconds.
+  path: Assets/Botiquin/Modelos/alcohol/alcohol.FBX
+  artifactKey: Guid(5db19438d31447e459c3edfbcf2f270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/alcohol/alcohol.FBX using Guid(5db19438d31447e459c3edfbcf2f270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dae6e21522e76b01379b5d9bb62da4') in 0.298529 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Botiquin/Modelos/alcohol pad/alcoholpad.FBX
+  artifactKey: Guid(af21710dc030aa8448a358afbae60f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/alcohol pad/alcoholpad.FBX using Guid(af21710dc030aa8448a358afbae60f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e46110c1009ce9b312acaaad1a4a5c') in 0.056342 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Botiquin/Modelos/aposito_absorvente/apositoabsorvente.obj
+  artifactKey: Guid(d72a7881e22245d448df4df260a5a707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/aposito_absorvente/apositoabsorvente.obj using Guid(d72a7881e22245d448df4df260a5a707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3375770a6001021c36df3d6b21339e9d') in 0.057623 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modelos/gasa no tejida 10x10/gasanotejida10x10.obj
+  artifactKey: Guid(5d8931de6ac9e9245b51696c018e8d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/gasa no tejida 10x10/gasanotejida10x10.obj using Guid(5d8931de6ac9e9245b51696c018e8d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9205c9510e5c77c13e2a3d3498f85bfb') in 0.050560 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Botiquin/Modelos/aposito de gasa/apositogasa.FBX
+  artifactKey: Guid(72269ab14b2d1814b8bd93c65bb938a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/aposito de gasa/apositogasa.FBX using Guid(72269ab14b2d1814b8bd93c65bb938a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e4f10702707ad367732c6f695e801a') in 0.073581 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Botiquin/Modelos/gasa no tejida 10x10/gasanotejida10x10.FBX
+  artifactKey: Guid(ddacb637aa98b3242a8307eddccb698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/gasa no tejida 10x10/gasanotejida10x10.FBX using Guid(ddacb637aa98b3242a8307eddccb698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfcefb16f627f4c0ca62c688a3a2ff4') in 0.057146 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Botiquin/Modelos/alcohol/alcohol.obj
+  artifactKey: Guid(657d540400979bb4e982c5054c24f57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/alcohol/alcohol.obj using Guid(657d540400979bb4e982c5054c24f57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08adb063b62881bb9e2a87bde02985ce') in 0.188103 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ExampleAssets/Materials/Grid.mat
+  artifactKey: Guid(3f9336a53d1d2ea43895699cc52cb411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExampleAssets/Materials/Grid.mat using Guid(3f9336a53d1d2ea43895699cc52cb411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86e270490a4fca2160c2f95106cb3b1') in 0.023489 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modelos/jeringa/jeringa.obj
+  artifactKey: Guid(161ae12689cf37f4aa8a962d71177145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/jeringa/jeringa.obj using Guid(161ae12689cf37f4aa8a962d71177145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b3ff64ba1d6b73ac0c3ed5173da361') in 0.061140 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Botiquin/Modelos/alcohol pad/alcoholpad.obj
+  artifactKey: Guid(61dfd9dd17bc50445995db216420bb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/alcohol pad/alcoholpad.obj using Guid(61dfd9dd17bc50445995db216420bb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69da9fa9e1fc610e41adb558385f68d4') in 0.035016 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Botiquin/Modelos/jeringa/jeringa.FBX
+  artifactKey: Guid(6433487d121a9db4c91a3bb87727e689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/jeringa/jeringa.FBX using Guid(6433487d121a9db4c91a3bb87727e689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99af7dae01629f102c8cb4d13f6f665d') in 0.049139 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modelos/aposito de gasa/apositogasa.obj
+  artifactKey: Guid(6e0d634e8acbbd246a32c9259d556720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/aposito de gasa/apositogasa.obj using Guid(6e0d634e8acbbd246a32c9259d556720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b92d1e1865c9f9741b75a2f0bd691fe') in 0.056988 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Botiquin/Modelos/jeringa/jeringa.obj
+  artifactKey: Guid(0b59a1ddd129dea4ea2a77c4e21aaa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/jeringa/jeringa.obj using Guid(0b59a1ddd129dea4ea2a77c4e21aaa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234235a1e1f96b7ff6ab0d5e3d2b22fe') in 0.055627 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d375ca063584e7f8e4b40ae5b0bd31a') in 0.025626 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dcabe2e95650eba843df9a6027e8d4') in 0.041751 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Botiquin/Modelos/gasa parafinada/Material__72.mat
+  artifactKey: Guid(f9eea3482108b534bb34005c390b2093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/gasa parafinada/Material__72.mat using Guid(f9eea3482108b534bb34005c390b2093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9903f924fc58f3bc459797ae0afe9a7e') in 0.026658 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cuerpo/Body_low.fbx
+  artifactKey: Guid(258febaa5f2b3f64b95e5704c354bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Cuerpo/Body_low.fbx using Guid(258febaa5f2b3f64b95e5704c354bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba872b1168e13cb91e9d326a99000bc') in 0.030971 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modelos/Mesa Minimalista/Modern Wood Table - Kopie.fbx
+  artifactKey: Guid(deaf11baa5cea254c9876ed64447092d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/Mesa Minimalista/Modern Wood Table - Kopie.fbx using Guid(deaf11baa5cea254c9876ed64447092d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7d9058f2462b90503c467f0815c4a5') in 0.045725 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modelos/alcohol pad/alcoholpad.obj
+  artifactKey: Guid(d596a9bdb03bf4e4598a86dbf9be60f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/alcohol pad/alcoholpad.obj using Guid(d596a9bdb03bf4e4598a86dbf9be60f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479ae9eaa0264a18259cdb926312e239') in 0.033852 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Botiquin/Modelos/aposito espuma/apositoespuma.FBX
+  artifactKey: Guid(493a9132e597f06449750394e97e6f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/aposito espuma/apositoespuma.FBX using Guid(493a9132e597f06449750394e97e6f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c47c085eb28489d2e3bbe88729e014') in 0.066289 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modelos/gasa parafinada/gasaparafinada.obj
+  artifactKey: Guid(b2be018e64672db459378aceb7da94bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/gasa parafinada/gasaparafinada.obj using Guid(b2be018e64672db459378aceb7da94bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376da3d03fd52490e5db04013d80541f') in 0.041386 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Botiquin/Modelos/aposito_absorvente/apositoabsorvente.FBX
+  artifactKey: Guid(c8ca7fab0c897814da8738a3a085db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/aposito_absorvente/apositoabsorvente.FBX using Guid(c8ca7fab0c897814da8738a3a085db5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e73f068b34b758a6a05c0b4826bb2a') in 0.064420 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Botiquin/Modelos/Tijeras/tijera.FBX
+  artifactKey: Guid(9e5c5e549fa1d28439de4a7709c4e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/Tijeras/tijera.FBX using Guid(9e5c5e549fa1d28439de4a7709c4e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0056ca1d5f93336332882497080527f1') in 0.829730 seconds 
+Number of asset objects unloaded after import = 168
+========================================================================
+Received Import Request.
+  Time since last request: 443.486949 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000574 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.978243 seconds.
+  path: Assets/Computador
+  artifactKey: Guid(baa928bab573162448cc9e18540c8773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador using Guid(baa928bab573162448cc9e18540c8773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c1866280ee0c85fe824117ae6e5f7b') in 0.000562 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.921419 seconds.
+  path: Assets/Computador/mouse
+  artifactKey: Guid(e9918428e12c63043a48e760946c1841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/mouse using Guid(e9918428e12c63043a48e760946c1841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d8f7acb9beea7717ec7e37dadbc7cc') in 0.000418 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.821668 seconds.
+  path: Assets/Computador/mouse/uploads_files_3686892_redgear.blend
+  artifactKey: Guid(6a7fda51eb954b945a6a8c95bfe95969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/mouse/uploads_files_3686892_redgear.blend using Guid(6a7fda51eb954b945a6a8c95bfe95969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6855d0c14e6c2b6fa844b5970dc53cca') in 0.001736 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.281803 seconds.
+  path: Assets/Computador/pantalla
+  artifactKey: Guid(a5b77ca5e3605104daa3ab87ed492cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/pantalla using Guid(a5b77ca5e3605104daa3ab87ed492cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb01d1fa9a4b56f331ba3315af608850') in 0.000452 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046236 seconds.
+  path: Assets/Computador/pantalla/uploads_files_3190277_samsung+curved+display.fbx
+  artifactKey: Guid(d847332515e4ad3479a9b9cd7a44e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/pantalla/uploads_files_3190277_samsung+curved+display.fbx using Guid(d847332515e4ad3479a9b9cd7a44e6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d11450c27683b302e08d602669f196') in 0.205292 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 10.886034 seconds.
+  path: Assets/Computador/Silla
+  artifactKey: Guid(9aa18325f23eb0b4088145a06e594d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/Silla using Guid(9aa18325f23eb0b4088145a06e594d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b1a652584f920ec37b60a9215d8f97') in 0.000401 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028659 seconds.
+  path: Assets/Computador/Silla/uploads_files_2023715_Samurai_done.dae
+  artifactKey: Guid(cd99ef4589c301f4481f3640053ca479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/Silla/uploads_files_2023715_Samurai_done.dae using Guid(cd99ef4589c301f4481f3640053ca479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc02b5380601947f38561bbaf495448') in 0.680962 seconds 
+Number of asset objects unloaded after import = 444
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Computador/Silla/uploads_files_2023715_Samurai_done.obj
+  artifactKey: Guid(965abc00672183a49af9bed3b8686e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/Silla/uploads_files_2023715_Samurai_done.obj using Guid(965abc00672183a49af9bed3b8686e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f332714b0f0cd4d05ff98b0f2eaf046') in 0.035539 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 59.441275 seconds.
+  path: Assets/Computador/teclado
+  artifactKey: Guid(1fb87a60dd52f8140946204665fb1cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/teclado using Guid(1fb87a60dd52f8140946204665fb1cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e732b0dc319d1199ae48ed0946d8d9') in 0.000460 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081229 seconds.
+  path: Assets/Computador/teclado/uploads_files_3803801_keyboard.fbx
+  artifactKey: Guid(f860107921a26d543b6131b60b15952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/teclado/uploads_files_3803801_keyboard.fbx using Guid(f860107921a26d543b6131b60b15952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0e97ad6abff6ab878c5f39966cd93e') in 1.049206 seconds 
+Number of asset objects unloaded after import = 814
+========================================================================
+Received Import Request.
+  Time since last request: 3.875564 seconds.
+  path: Assets/Computador/teclado/uploads_files_3803801_Keyboard.zip
+  artifactKey: Guid(b04738481fea4244d8cfe5993e7fb884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/teclado/uploads_files_3803801_Keyboard.zip using Guid(b04738481fea4244d8cfe5993e7fb884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4718789f12fc2417e3d6149ad32a09a7') in 0.001394 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 413.717952 seconds.
+  path: Assets/Computador/mouse/uploads_files_3531016_mouse.3ds
+  artifactKey: Guid(435512b2f1a99594891eb1383d008122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/mouse/uploads_files_3531016_mouse.3ds using Guid(435512b2f1a99594891eb1383d008122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ff2efe1cfd1c60318ae03048a7ec85') in 0.101833 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Computador/mouse/uploads_files_3531016_mouse.obj
+  artifactKey: Guid(eb384cdd5cdebcd45a70d7740ce17215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/mouse/uploads_files_3531016_mouse.obj using Guid(eb384cdd5cdebcd45a70d7740ce17215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1972e4aefc59973552385cd5005e74d9') in 0.094857 seconds 
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 384.777703 seconds.
+  path: Assets/Modelos/cinta/cinta.obj
+  artifactKey: Guid(bb8102d0d9a88794ca1f273c163c8ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/cinta/cinta.obj using Guid(bb8102d0d9a88794ca1f273c163c8ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8ec68e64f9d9192c7940473afd10a0') in 0.100600 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 29.991700 seconds.
+  path: Assets/ExampleAssets/Models/XRControllerRight.fbx
+  artifactKey: Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExampleAssets/Models/XRControllerRight.fbx using Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed9743d49e838ea17aea79082943085') in 0.128656 seconds 
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExampleAssets/Materials/Skybox Light.mat
+  artifactKey: Guid(3a408e788dcbed6429c8d22a01b32a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExampleAssets/Materials/Skybox Light.mat using Guid(3a408e788dcbed6429c8d22a01b32a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4079bdbdfcdf32c486b3f9cc70c2e7') in 0.029317 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modelos/palos de helado/palomedico.obj
+  artifactKey: Guid(7cd3d94ce2b6236418850922b5dd6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/palos de helado/palomedico.obj using Guid(7cd3d94ce2b6236418850922b5dd6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25ac8e7bf82539145688dbf00ff501a') in 0.082806 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Botiquin/Modelos/palos de helado/palomedico.FBX
+  artifactKey: Guid(9de303f957463db4087f453b881f6811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/palos de helado/palomedico.FBX using Guid(9de303f957463db4087f453b881f6811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f047ab1d9d429440a6844327f0bfefb5') in 0.067340 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.441453 seconds.
+  path: Assets/Botiquin/Modelos/Tijeras/tijera.obj
+  artifactKey: Guid(fd5b2a6d4b257934185c643de55fb941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/Tijeras/tijera.obj using Guid(fd5b2a6d4b257934185c643de55fb941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e18bf3749a446e9b7f58178653ddc54') in 0.035566 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.001138 seconds.
+  path: Assets/Modelos/Tijeras/tijera.obj
+  artifactKey: Guid(85ee1eb159cac5c4eb8f5353766d356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/Tijeras/tijera.obj using Guid(85ee1eb159cac5c4eb8f5353766d356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791fc258895b2ce9d4bf88d154af2a74') in 0.037941 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.344568 seconds.
+  path: Assets/Waiting room/PostProcessing/Utilities/CustomMotionTexture/Materials/UVChecker.mat
+  artifactKey: Guid(944463113244f4bf8b05c1757cd838a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/PostProcessing/Utilities/CustomMotionTexture/Materials/UVChecker.mat using Guid(944463113244f4bf8b05c1757cd838a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927e1ce23e2302fecd1183e99a0a6061') in 0.029397 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Botiquin/Modelos/gasa no tejida 5x5/gasanotejida5x5.FBX
+  artifactKey: Guid(3cb66a46e616deb448300b3a57f2ca46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/gasa no tejida 5x5/gasanotejida5x5.FBX using Guid(3cb66a46e616deb448300b3a57f2ca46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585f57f996a4f3ad6ebc46d4d6304efb') in 0.123243 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.711915 seconds.
+  path: Assets/Botiquin/Modelos/cinta/cinta.FBX
+  artifactKey: Guid(8f67af2ba57849645b8346dcdefb3662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/cinta/cinta.FBX using Guid(8f67af2ba57849645b8346dcdefb3662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64376878d57b6d58c42bc065585e533') in 0.088002 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.339184 seconds.
+  path: Assets/Modelos/gasa no tejida 5x5/gasanotejida5x5.obj
+  artifactKey: Guid(570cc877f289bcc4aa123e001d9fefc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/gasa no tejida 5x5/gasanotejida5x5.obj using Guid(570cc877f289bcc4aa123e001d9fefc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a83ba4c32e6b77127d8a661163a5a87') in 0.098142 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Botiquin/Modelos/cloruro de sodio/clorurodesodio.FBX
+  artifactKey: Guid(86cfa0cef10efeb49a1cfd2d2ddb6ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/cloruro de sodio/clorurodesodio.FBX using Guid(86cfa0cef10efeb49a1cfd2d2ddb6ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b5741f3e8005d32969bf4138c0b779') in 0.075146 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 63.875802 seconds.
+  path: Assets/Botiquin/Modelos/gasa parafinada/wire_148177027.mat
+  artifactKey: Guid(ad18fcfa368a13a4085ea8eed9231b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/gasa parafinada/wire_148177027.mat using Guid(ad18fcfa368a13a4085ea8eed9231b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355f7953438eb00e07a1cca2563f1fa3') in 0.018275 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.159297 seconds.
+  path: Assets/Botiquin/Modelos/cinta medica/cintamedica.obj
+  artifactKey: Guid(e33fefe6d72928643bd7a981daecd71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/cinta medica/cintamedica.obj using Guid(e33fefe6d72928643bd7a981daecd71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865ded9b86323437d678efcc539543c4') in 0.135555 seconds 
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Botiquin/Modelos/cinta medica/cintamedica.FBX
+  artifactKey: Guid(d63aebc5be43bd8498e195a6dd44771f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/cinta medica/cintamedica.FBX using Guid(d63aebc5be43bd8498e195a6dd44771f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bee165543ea4d30a3b9a021bff607bd') in 0.122373 seconds 
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Botiquin/Modelos/Botiquin/Botiquin3.fbx
+  artifactKey: Guid(3cc85e971acbff24db9043b0f6b213bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/Botiquin/Botiquin3.fbx using Guid(3cc85e971acbff24db9043b0f6b213bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0faa51a5e5a7fdbc3c0002aff9d040bb') in 0.056785 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.321508 seconds.
+  path: Assets/Modelos/algodon/algodon.obj
+  artifactKey: Guid(e48a54c21d810f04cbb8a39293168807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/algodon/algodon.obj using Guid(e48a54c21d810f04cbb8a39293168807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793ace85740f920ea8d6bb340cb385c8') in 0.075546 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Botiquin/Modelos/algodon/algodon.FBX
+  artifactKey: Guid(238f1c98a0c428b49bb0f3fe6ce4035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/algodon/algodon.FBX using Guid(238f1c98a0c428b49bb0f3fe6ce4035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808e816a9a8822135ba97208c2522ec9') in 0.052405 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Botiquin/Modelos/Botiquin/botiquin.obj
+  artifactKey: Guid(53822f773b481d447a6bfe36b324e65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/Botiquin/botiquin.obj using Guid(53822f773b481d447a6bfe36b324e65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c692e1b6d2c29b7019b433c340adfec8') in 0.058010 seconds 
+Number of asset objects unloaded after import = 26
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
