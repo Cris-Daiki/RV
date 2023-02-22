@@ -436,6 +436,7 @@
 "Assets/Scripts/RotacionModeloDerecha.cs"
 "Assets/Scripts/Rotation.cs"
 "Assets/Scripts/SeguimientoCamara.cs"
+"Assets/Scripts/ShowMision.cs"
 "Assets/Scripts/ShowTexto.cs"
 "Assets/Scripts/WinActivacion.cs"
 "Assets/Scripts/Zoom.cs"
