@@ -39,9 +39,6 @@ public class CambiarModeloUnico : MonoBehaviour
 
     //int contadorPrestadoMU;
 
-    public List<GameObject> listaImaginaria;
-
-
     public void WhenUserSee(string Nombre) //esta funcion nos permite desplegar el objeto o volverlo a su posicion original dependiendo del objeto con el que el usuario interactua
     {
         ContadorVolver =FindObjectOfType<Despliegue>();
@@ -77,16 +74,6 @@ public class CambiarModeloUnico : MonoBehaviour
                 ObjetoReferenciado.transform.localScale = new Vector3(x, y, z);
                 ObjetoReferenciado.transform.position = new Vector3(-0.330000013f, 9.54899979f, -0.109999999f);
 
-                for (int i = 0; i < listaImaginaria.Count; i++)
-                {
-                    if (ObjetoReferenciado.name == listaImaginaria[i].name)
-                    {
-                        listaImaginaria[i].SetActive(true);
-                    }
-
-                }
-
-
                 //ObjetoReferenciado.transform.position = new Vector3();
                 if (ObjetoReferenciado.name == "apositoabsorvente" || ObjetoReferenciado.name == "tijera" || ObjetoReferenciado.name == "algodon" ||
                 ObjetoReferenciado.name == "gasanotejida10x10" || ObjetoReferenciado.name == "clorurodesodio" || ObjetoReferenciado.name == "alcoholpad" ||
@@ -111,11 +98,6 @@ public class CambiarModeloUnico : MonoBehaviour
                 ObjetoReferenciado.transform.rotation = rotacionDelObjeto;
                 UpdateRotation(Nombre);
                 //Update2(Nombre);
-                for (int i = 0; i < listaImaginaria.Count; i++)
-                {
-                    listaImaginaria[i].SetActive(false);
-
-                }
                 Update4(Nombre);
                 contador += 1;
                 ContadorVolver.contadorDespliegue -=1;

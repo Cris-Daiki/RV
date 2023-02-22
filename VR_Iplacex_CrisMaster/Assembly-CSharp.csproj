@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\WinActivacion.cs" />
     <Compile Include="Assets\Scripts\ChangeColo.cs" />
     <Compile Include="Assets\Scripts\ConeccionFlecha.cs" />
+    <Compile Include="Assets\Scripts\ApagarTextoGeneral.cs" />
     <Compile Include="Assets\Scripts\CambiarModelo.cs" />
     <Compile Include="Assets\Scripts\CamaraControl.cs" />
     <Compile Include="Assets\Scripts\ApagarTXT.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Scripts\Outliner.cs" />
     <Compile Include="Assets\Interactable\AnalizarModelo.cs" />
     <Compile Include="Assets\Scripts\CambiarModeloUnico.cs" />
+    <Compile Include="Assets\Interactable\ApagarTexto.cs" />
     <Compile Include="Assets\Scripts\Progreso.cs" />
     <Compile Include="Assets\Scripts\InputController.cs" />
     <Compile Include="Assets\Interactable\MostrarProblema.cs" />
