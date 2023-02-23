@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\MostrarObjetosMostrador.cs" />
     <Compile Include="Assets\Scripts\FPCamera.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Interactable\Animacion.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\Interactable\PlayInteractuable.cs" />
     <Compile Include="Assets\Scripts\EligiendoElementos.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Scripts\AnimationController.cs" />
     <Compile Include="Assets\Scripts\RotacionModelo.cs" />
     <Compile Include="Assets\Interactable\ElegirOtroReto.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />

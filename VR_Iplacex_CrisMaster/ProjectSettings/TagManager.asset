@@ -13,6 +13,11 @@ TagManager:
   - DesplegarObjetos
   - Accionar
   - Controlador
+  - ObtenerElemento
+  - Texto
+  - RetoJugador
+  - MostradorObjetos
+  - Animation
   layers:
   - Default
   - TransparentFX
