@@ -380,7 +380,7 @@ MonoBehaviour:
   m_LastFolders:
   - Packages/com.unity.learn.iet-framework.authoring
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\crist\Desktop\Main\VR_Iplacex_Main
+  m_LastProjectPath: C:\Users\crist\Desktop\MAIN_IPLACEX\RV_MAIN\VR_Iplacex_Main
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
