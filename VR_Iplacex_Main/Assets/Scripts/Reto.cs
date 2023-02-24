@@ -5,8 +5,7 @@ using UnityEngine;
 public class Reto : MonoBehaviour
 {
     public GameObject Canvas;
-    public List<GameObject> IniciarReto;
-    public GameObject Instrucciones,Vacio,Body,Listo;
+    public GameObject Instrucciones,Vacio,Body,Listo,BotiquinACT;
     int contador = 0;
 
     MostrarProblema ApagarProblema;
@@ -34,9 +33,7 @@ public class Reto : MonoBehaviour
             Body.SetActive(true);
             contador-=1;
             InicioJuego.SetActive(true);
-            for(int i = 0; i< IniciarReto.Count; i++){
-                IniciarReto[i].SetActive(true);
-            }
+            BotiquinACT.SetActive(true);
             Canvas.SetActive(true);
             Listo.SetActive(true);
             ONOFFReto.SetActive(false);

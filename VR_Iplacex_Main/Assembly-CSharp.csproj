@@ -64,11 +64,15 @@
     <Compile Include="Assets\Waiting room\Scripts\RotateMoveCamera.cs" />
     <Compile Include="Assets\Scripts\PlayInspeccionarcuerpo.cs" />
     <Compile Include="Assets\Scripts\WinActivacion.cs" />
+    <Compile Include="Assets\Scripts\ActivarAnimacion.cs" />
     <Compile Include="Assets\Scripts\ChangeColo.cs" />
+    <Compile Include="Assets\Interactable\AnimationInterac.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\BaseJoystickController.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Scripts\ConeccionFlecha.cs" />
     <Compile Include="Assets\Scripts\ApagarTextoGeneral.cs" />
     <Compile Include="Assets\Scripts\CambiarModelo.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\OneDirectionSwipeController.cs" />
     <Compile Include="Assets\Scripts\CamaraControl.cs" />
     <Compile Include="Assets\Scripts\ApagarTXT.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
@@ -87,11 +91,14 @@
     <Compile Include="Assets\Interactable\OnOf.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\ResourceBarTextController.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\SlidePanel.cs" />
     <Compile Include="Assets\Interactable\PlayCambioCuerpo.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\Scripts\RotacionModeloDerecha.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\Scripts\Reto.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\AwardButtonController.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
@@ -120,6 +127,7 @@
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\PostProcessingModel.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\Scripts\PLay.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\ToggleSlider.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\Scripts\SeguimientoCamara.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Components\UserLutComponent.cs" />
@@ -137,6 +145,7 @@
     <Compile Include="Assets\Interactable\Evaluar.cs" />
     <Compile Include="Assets\Scripts\ONOFFunciones.cs" />
     <Compile Include="Assets\Scripts\CambioModelo.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\StaticJoystickController.cs" />
     <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\Scripts\QuitarIniciarLvls.cs" />
     <Compile Include="Assets\Interactable\ActivarRotarDerecha.cs" />
@@ -158,9 +167,11 @@
     <Compile Include="Assets\Waiting room\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\Demo\JoystickSliderSync.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\Scripts\Giroscopio.cs" />
     <Compile Include="Assets\Scripts\GiroscopioMenu.cs" />
+    <Compile Include="Assets\MageMobileUI\Scripts\DynamicJoystickController.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -189,6 +200,7 @@
     <None Include="Assets\Waiting room\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\Shaders\Outline3D.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\MageMobileUI\Shaders\FireSparks.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Waiting room\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
