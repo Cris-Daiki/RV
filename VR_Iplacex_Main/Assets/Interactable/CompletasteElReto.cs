@@ -16,8 +16,14 @@ public class CompletasteElReto : Interactable
         activate.CompletoReto();
         activate2 =GameObject.FindGameObjectWithTag("Texto").GetComponent<ShowTexto>();
         activate2.ApagarTexto();
-        activate3 =GameObject.FindGameObjectWithTag("RetoJugador").GetComponent<Reto>();
-        activate3.TerminarReto();
+        if(transform.gameObject.name == "SalirModoTutorial"){
+            activate3 =GameObject.FindGameObjectWithTag("RetoJugador").GetComponent<Reto>();
+            activate3.TerminarTutorial();
+        }else{
+            activate3 =GameObject.FindGameObjectWithTag("RetoJugador").GetComponent<Reto>();
+            activate3.TerminarReto();
+        }
+        
 
     }
 }

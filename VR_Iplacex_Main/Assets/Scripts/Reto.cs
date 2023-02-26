@@ -12,7 +12,7 @@ public class Reto : MonoBehaviour
     ShowTexto activate;
     public GameObject ONOFFReto;
     public GameObject CambiarReto;
-    public GameObject ObjetosElegidosTitulo;
+    public GameObject ObjetosElegidosTitulo,BotonTutorialOFF;
     // Update is called once per frame
     public GameObject InicioJuego;
     public void MostrarInstrucciones(){
@@ -43,11 +43,23 @@ public class Reto : MonoBehaviour
         }
         contador +=1;
     }
+
     public void TerminarReto(){
         ONOFFReto.SetActive(true);
         Listo.SetActive(false);
         Canvas.SetActive(false);
         CambiarReto.SetActive(false);
         ObjetosElegidosTitulo.SetActive(false);
+        BotiquinACT.SetActive(false);
     }
+    public void TerminarTutorial(){
+        ONOFFReto.SetActive(true);
+        Listo.SetActive(false);
+        Canvas.SetActive(false);
+        CambiarReto.SetActive(false);
+        ObjetosElegidosTitulo.SetActive(false);
+        BotiquinACT.SetActive(false);
+        BotonTutorialOFF.SetActive(false);
+    }
+
 }

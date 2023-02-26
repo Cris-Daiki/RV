@@ -10,6 +10,7 @@ public class CambiarModeloUnico : MonoBehaviour
 
 
     public List<GameObject> myList;
+    public List<GameObject> listaTextos;
 
     Despliegue ApagarLista;  //usamos esta variable para obtener la lista con los gameobjects de los modelos para apagarlo o encenderlo
 
@@ -73,6 +74,14 @@ public class CambiarModeloUnico : MonoBehaviour
                 rotacionDelObjeto = ObjetoReferenciado.transform.rotation;
                 ObjetoReferenciado.transform.localScale = new Vector3(x, y, z);
                 ObjetoReferenciado.transform.position = new Vector3(-0.330000013f, 9.54899979f, -0.109999999f);
+                for (int i = 0; i < listaTextos.Count; i++)
+                {
+                    if (ObjetoReferenciado.name == listaTextos[i].name)
+                    {
+                        listaTextos[i].SetActive(true);
+                    }
+
+                }
 
                 //ObjetoReferenciado.transform.position = new Vector3();
                 if (ObjetoReferenciado.name == "apositoabsorvente" || ObjetoReferenciado.name == "tijera" || ObjetoReferenciado.name == "algodon" ||
@@ -93,7 +102,11 @@ public class CambiarModeloUnico : MonoBehaviour
             }
             else
             {
-               
+               for (int i = 0; i < listaTextos.Count; i++)
+                {
+                    listaTextos[i].SetActive(false);
+
+                }
                 ObjetoReferenciado.transform.position = Posicion;
                 ObjetoReferenciado.transform.rotation = rotacionDelObjeto;
                 UpdateRotation(Nombre);
