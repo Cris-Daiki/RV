@@ -142,6 +142,7 @@
     <Compile Include="Assets\Scripts\RetoCompletado.cs" />
     <Compile Include="Assets\Scripts\Rotation.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Scripts\CerrarInstruccion.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
     <Compile Include="Assets\Waiting room\PostProcessing\Runtime\Models\FogModel.cs" />

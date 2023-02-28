@@ -5,7 +5,7 @@ using UnityEngine;
 public class ActivarReto : Interactable
 {
     Reto activate; 
-    public GameObject Tutorial,botonTutorial,SalirTutorial,BotonReto,Canvas,ObjetoQContieneLaAnimacion;
+    public GameObject Tutorial,botonTutorial,SalirTutorial,BotonReto,Canvas,ObjetoQContieneLaAnimacion, MisionTutorial;
     public BoxCollider BoxColliderTapa,BoxColliderBase;
     Tutorial activate2;
     
@@ -15,6 +15,7 @@ public class ActivarReto : Interactable
 
         activate = GameObject.FindGameObjectWithTag("RetoJugador").GetComponent<Reto>();
         if(transform.gameObject.name == "ActivarTutorial"){
+            MisionTutorial.SetActive(true);
             foreach (Transform children in this.ObjetoQContieneLaAnimacion.transform){
                 children.gameObject.layer =6;
             }

@@ -424,6 +424,7 @@
 "Assets/Scripts/CambioModelo.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraInteration.cs"
+"Assets/Scripts/CerrarInstruccion.cs"
 "Assets/Scripts/ChangeColo.cs"
 "Assets/Scripts/ChangeColor.cs"
 "Assets/Scripts/ConeccionFlecha.cs"

@@ -8,6 +8,8 @@ public class CompletasteElReto : Interactable
     ShowTexto activate2;
     Reto activate3;
     Evaluando ProgresoEvaluando;
+    public GameObject Apagarcanvas, ApagarTutorial;
+
     public override void Interact(){
         base.Interact();
         ProgresoEvaluando =GameObject.FindGameObjectWithTag("RetoJugador").GetComponent<Evaluando>();
@@ -17,6 +19,8 @@ public class CompletasteElReto : Interactable
         activate2 =GameObject.FindGameObjectWithTag("Texto").GetComponent<ShowTexto>();
         activate2.ApagarTexto();
         if(transform.gameObject.name == "SalirModoTutorial"){
+            Apagarcanvas.SetActive(false);
+            ApagarTutorial.SetActive(false);
             activate3 =GameObject.FindGameObjectWithTag("RetoJugador").GetComponent<Reto>();
             activate3.TerminarTutorial();
         }else{
