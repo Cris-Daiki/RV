@@ -1,0 +1,359 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.4f1 (8216e0211249) revision 8525536'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'es' Physical Memory: 24512 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Ouk/Desktop/git final/RV/VR_Iplacex_Main
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52650
+Successfully changed project path to: C:/Users/Ouk/Desktop/git final/RV/VR_Iplacex_Main
+C:/Users/Ouk/Desktop/git final/RV/VR_Iplacex_Main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37524] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1645824002 [EditorId] 1645824002 [Version] 1048832 [Id] WindowsEditor(7,OukZeroPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [37524] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1645824002 [EditorId] 1645824002 [Version] 1048832 [Id] WindowsEditor(7,OukZeroPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 19.36 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Initialize engine version: 2022.2.4f1 (8216e0211249)
+[Subsystems] Discovering subsystems at path D:/unity/2022.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ouk/Desktop/git final/RV/VR_Iplacex_Main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'D:/unity/2022.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.2.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2022.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003832 seconds.
+- Loaded All Assemblies, in  0.389 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 235 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (232ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+				TypeCache.Initialize (154ms)
+					TypeCache.ScanAssembly (152ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (332ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Assets/Computador/pantalla/monitor.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ouk\Desktop\git final\RV\VR_Iplacex_Main\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ouk\Desktop\git final\RV\VR_Iplacex_Main\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.052 seconds
+Refreshing native plugins compatible for Editor in 14.71 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <0da48681ced7494d83ae6a612d2206fc>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <0da48681ced7494d83ae6a612d2206fc>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <c119aa0913a0473185a8287e39c3f563>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (204ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (847ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (657ms)
+				TypeCache.Initialize (426ms)
+					TypeCache.ScanAssembly (418ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Assets/Computador/pantalla/monitor.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 15.81 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4031 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (381.1 KB). Loaded Objects now: 4484.
+Memory consumption went from 0.61 GB to 0.61 GB.
+Total: 7.346300 ms (FindLiveObjects: 0.537700 ms CreateObjectMapping: 0.835600 ms MarkObjects: 5.778900 ms  DeleteObjects: 0.192800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1022905.539147 seconds.
+  path: Assets/Botiquin/Modelos/Botiquin/BotiquinYup.FBX
+  artifactKey: Guid(a5d2bb858b5dc38428b6b332c07a66a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/Botiquin/BotiquinYup.FBX using Guid(a5d2bb858b5dc38428b6b332c07a66a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118ac64292ff13e69b41e72b91c46741') in 0.202631 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Habitacion/uploads_files_3910300_Consulting+Room+-+01+-+3D+Model.FBX
+  artifactKey: Guid(b998d4072f0971944a85a8a03e1085df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Habitacion/uploads_files_3910300_Consulting+Room+-+01+-+3D+Model.FBX using Guid(b998d4072f0971944a85a8a03e1085df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433dd60a83f504d8c9644def25541f5a') in 1.136611 seconds 
+Number of asset objects unloaded after import = 960
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Botiquin/Modelos/cinta medica/cintamedica.obj
+  artifactKey: Guid(e33fefe6d72928643bd7a981daecd71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/cinta medica/cintamedica.obj using Guid(e33fefe6d72928643bd7a981daecd71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50596a4225568f244d427ab9f2fe5fa5') in 0.161163 seconds 
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 5.782117 seconds.
+  path: Assets/ModelosNuevos/Modelos/alcohol pad/alcoholpad.FBX
+  artifactKey: Guid(6a12ee2b9cd87334b8036942c4ed5bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModelosNuevos/Modelos/alcohol pad/alcoholpad.FBX using Guid(6a12ee2b9cd87334b8036942c4ed5bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805a19811de0ad3d19426cf16e296afd') in 0.039147 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modelos/alcohol pad/alcoholpad.obj
+  artifactKey: Guid(d596a9bdb03bf4e4598a86dbf9be60f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Modelos/alcohol pad/alcoholpad.obj using Guid(d596a9bdb03bf4e4598a86dbf9be60f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831178d10181fe9106ebf7352c811466') in 0.041688 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.089376 seconds.
+  path: Assets/ModelosNuevos/Modelos/gasa no tejida 10x10/gasanotejida10x10.obj
+  artifactKey: Guid(885285b58dad6d44d9b268359d7160ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModelosNuevos/Modelos/gasa no tejida 10x10/gasanotejida10x10.obj using Guid(885285b58dad6d44d9b268359d7160ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa05582fbabdff1267b2dee74fbd4ae') in 0.040873 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ModelosNuevos/Modelos/aposito_absorvente/apositoabsorvente.FBX
+  artifactKey: Guid(5dc67d6a8e0d1e44594881a4ab3fc9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModelosNuevos/Modelos/aposito_absorvente/apositoabsorvente.FBX using Guid(5dc67d6a8e0d1e44594881a4ab3fc9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4268988b21dab4f192d957b74c2c96') in 0.064707 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModelosNuevos/Modelos/gasa parafinada/gasaparafinada.FBX
+  artifactKey: Guid(214edfc6ce8a55d48a0f1a1daebf2bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModelosNuevos/Modelos/gasa parafinada/gasaparafinada.FBX using Guid(214edfc6ce8a55d48a0f1a1daebf2bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e12faf0650147d17908472cba144a75') in 0.043385 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.034062 seconds.
+  path: Assets/Botiquin/Modelos/gasa no tejida 10x10/gasanotejida10x10.FBX
+  artifactKey: Guid(ddacb637aa98b3242a8307eddccb698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/gasa no tejida 10x10/gasanotejida10x10.FBX using Guid(ddacb637aa98b3242a8307eddccb698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7184a2ea8464308b4bf6634e887d03df') in 0.057390 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.098612 seconds.
+  path: Assets/ModelosNuevos/Modelos/cloruro de sodio/clorurodesodio.obj
+  artifactKey: Guid(391599513f5984b4e8ae979f37235493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModelosNuevos/Modelos/cloruro de sodio/clorurodesodio.obj using Guid(391599513f5984b4e8ae979f37235493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aac914eeea3768fb6812df08e7866e6') in 0.091417 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Botiquin/Modelos/cloruro de sodio/clorurodesodio.obj
+  artifactKey: Guid(ebac066f6da88984d82ffcb18a615e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/cloruro de sodio/clorurodesodio.obj using Guid(ebac066f6da88984d82ffcb18a615e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381b42f2d059f5c632ef902412791d98') in 0.085345 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.063830 seconds.
+  path: Assets/ModelosNuevos/Modelos/Carton/carton.obj
+  artifactKey: Guid(cda610ef9d32d2e41aa7107e601314ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModelosNuevos/Modelos/Carton/carton.obj using Guid(cda610ef9d32d2e41aa7107e601314ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1677a6f789bd298626c6380e35b63f7b') in 0.073714 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ModelosNuevos/Modelos/alfiler/alfiler_gancho.FBX
+  artifactKey: Guid(7fde8b8b47c6a7343a153021f341c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModelosNuevos/Modelos/alfiler/alfiler_gancho.FBX using Guid(7fde8b8b47c6a7343a153021f341c803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dc186ed2b6df287755becddfec0105') in 0.054477 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Botiquin/Modelos/gasa no tejida 5x5/gasanotejida5x5.FBX
+  artifactKey: Guid(3cb66a46e616deb448300b3a57f2ca46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/gasa no tejida 5x5/gasanotejida5x5.FBX using Guid(3cb66a46e616deb448300b3a57f2ca46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9d1f659f62c548ee371c1c79fb7a67') in 0.140113 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.212299 seconds.
+  path: Assets/Computador/Silla/uploads_files_2023715_Samurai_done.dae
+  artifactKey: Guid(cd99ef4589c301f4481f3640053ca479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/Silla/uploads_files_2023715_Samurai_done.dae using Guid(cd99ef4589c301f4481f3640053ca479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc02b5380601947f38561bbaf495448') in 0.801132 seconds 
+Number of asset objects unloaded after import = 444
+========================================================================
+Received Import Request.
+  Time since last request: 0.722030 seconds.
+  path: Assets/Botiquin/Modelos/cinta/cinta.FBX
+  artifactKey: Guid(8f67af2ba57849645b8346dcdefb3662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Botiquin/Modelos/cinta/cinta.FBX using Guid(8f67af2ba57849645b8346dcdefb3662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208f93898ba38274ecdd38a93ca391fb') in 0.092931 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.031122 seconds.
+  path: Assets/ModelosNuevos/Modelos/alcohol/alcohol.obj
+  artifactKey: Guid(2383c5ee9daabd64994a77b55c8cc5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModelosNuevos/Modelos/alcohol/alcohol.obj using Guid(2383c5ee9daabd64994a77b55c8cc5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4965575e2cdb280ce1be43efeb27c993') in 0.240131 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.142521 seconds.
+  path: Assets/Waiting room/PostProcessing/Utilities/CustomMotionTexture/Materials/DebugMotionVectors.mat
+  artifactKey: Guid(d7daeefbca4f14360bac0e1df1bdacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Waiting room/PostProcessing/Utilities/CustomMotionTexture/Materials/DebugMotionVectors.mat using Guid(d7daeefbca4f14360bac0e1df1bdacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65316fa3ebd788f1ac6af45c43ea1378') in 0.020849 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Computador/Silla/uploads_files_2023715_Samurai_done.obj
+  artifactKey: Guid(965abc00672183a49af9bed3b8686e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Computador/Silla/uploads_files_2023715_Samurai_done.obj using Guid(965abc00672183a49af9bed3b8686e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f332714b0f0cd4d05ff98b0f2eaf046') in 0.048724 seconds 
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
